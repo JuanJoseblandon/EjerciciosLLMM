@@ -14,16 +14,12 @@
     <p align="left">
     <a href="https://www.pccomponentes.com/portatiles-workstation">link</a>  <img src="https://pbs.twimg.com/profile_images/832152319236112384/rwG5mZ78.jpg" alt="PcComponentes.com" width="104" height="104"> </align right>
   	<p align="left">
-    
     <p>configurador</p>
     <p align ="left">
-    <a href="https://www.pccomponentes.com/configurador/74A60f503">link</a><img src="https://pbs.twimg.com/profile_images/832152319236112384/rwG5mZ78.jpg" alt="PcComponentes.com" width="104" height="104"> </p align="left">
-  	
-  
+    <a href="https://www.pccomponentes.com/configurador/74A60f503">link</a><img src="https://pbs.twimg.com/profile_images/832152319236112384/rwG5mZ78.jpg" alt="PcComponentes.com" width="104" height="104"> </p align="left"
     <p style="text-align:right;"> pc Evil</p> 
     <p align="right">
     <a href="https://www.pccomponentes.com/zone-evil-gold-intel-core-i7-10700f-16gb-1tb-480gb-ssd-gtx-1050-ti">link</a><img src="https://pbs.twimg.com/profile_images/832152319236112384/rwG5mZ78.jpg" alt="PcComponentes.com" width="104" height="104"> </p align="right">
-  	
     <p style="text-align:right;">coolmod pc</p>
     <p align="right">
     <a href="https://www.coolmod.com/coolpc-gamer-iv/">link</a><img src="https://pbs.twimg.com/profile_images/1214458980023570432/ok73SfAE_400x400.png" width="104" height="104"> </p align="right">
