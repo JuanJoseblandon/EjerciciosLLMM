@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <inventario>
+        <libro>
+            <titulo>la_llamada_de_cthulhu</titulo>
+            <autor>Howard_Phillips_Lovecraft </autor>
+            <genero> terror_cósmico,ciencia_ficción</genero>
+            <fecha_de_publicación>Febrero_de_1928</fecha_de_publicación>
+            <editorial>Weird_tales</editorial>
+        </libro>
+        <libro>
+            <titulo>Cruzada_en_jeans</titulo>
+            <autor>Thea_Beckman</autor>
+            <genero>Novela,_literatuta_infantil_y_juvenil,_literatuta_fantástica,_ucronía</genero>
+            <fecha_de_publicación>1983</fecha_de_publicación>
+            <editorial>Charles_Scribner's_Sons</editorial>
+            </libro>
+        <libro>
+            <titulo>Animales_fantásticos_y_dónde_encontrarlos</titulo>
+            <autor>J._K._Rowling</autor>
+            <genero>Ficción_especulativa,_literatura_fantástica_y_libro_de_texto<genero>
+            <fecha_de_publicación>2001</fecha_de_publicación>
+            <editorial>Bloomsbury</editorial>
+            </libro>
+
