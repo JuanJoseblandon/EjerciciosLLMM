@@ -8,8 +8,8 @@ Ejercicios|Descripcion
 [EJERCICIO SVG](/tema1/SVG.docx) | ejercicio de definición de SVG y un ejemplo del mismo.
 [PRUEBA MD](https://github.com/JuanJoseblandon/pruebas-)|Primeros pasos en el lenjuage markdown
 ### Tema 2
-Ejercicios|
-----------|
+Ejercicios|descripción
+----------|-----------
 .[Ejercicio 1](/tema 2/tarea 1 ejercicio 1 tema 2.html)|
 .[Ejercicio 2](/tema 2/tarea 1 ejercicio 2 tema 2.html)|
 .[Ejercicio 3](/tema 2/tarea 1 ejercicio 3 tema 2.html)|
