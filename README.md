@@ -10,30 +10,33 @@ Ejercicios|Descripcion
 ### Tema 2
 Ejercicios|Descripcion
 ----------|-----------
-[Ejercicio 1](/tema2/ejercicio1.html)| pagina web
-[Ejercicio 2](/tema2/ejercicio2.html)| ejercicio 2
-[Ejercicio 3](/tema2/ejercicio3.html)| ejercicio 3
-[Ejercicio 4](/tema2/ejercicio4.html)| ejercicio 4
-[Ejercicio 5](/tema2/ejercicio5.html)| ejercicio 5
-[Ejercicio 6](/tema2/ejercicio6.html)| ejercicio 6
-[Ejercicio 7](/tema2/ejercicio7.html)| ejercicio 7
-[Ejercicio 8](/tema2/misitio/)| ejercicio 8
-[Ejercicio 9](/tema2/welcome_to_runners_home/)| ejercicio 9
-[Ejercicio 10](/tema2/ejercicio10.html)| ejercicio 10
-[Ejercicio 11](/tema2/ejercicio11.html)| ejercicio 11
-[Ejercicio 12](/tema2/ejercicio12.html)| ejercicio 12
-[Ejercicio 13](/tema2/ejercicio13.html)| ejercicio 13
-[Ejercicio 14](/tema2/ejercicio14.html)| ejercicio 14
-[Ejercicio 15](/tema2/ejercicio15.html)| ejercicio 15
-[Ejercicio 16](/tema2/ejercicio16.html)| ejercicio 16
-[Ejercicio 17](/tema2/ejercicio17.html)| ejercicio 17
-[Ejercicio 18](/tema2/ejercicio18.html)| ejercicio 18
-[Ejercicio 19](/tema2/ejercicio19.html)| ejercicio 19
-[Ejercicio 20](/tema2/ejercicio20.html)| ejercicio 20
-[Ejercicio 21](/tema2/ejercicio21.html)| ejercicio 21
-[Ejercicio 22](/tema2/ejercicio22.html)| ejercicio 22
-[Ejercicio 23](/tema2/ejercicio23.html)| ejercicio 23
-[Ejercicio 24](/tema2/ejercicio24.html)| ejercicio 24
+[Página Web](https://web4ujuanjoseba.w3spaces.com)|Proyecto del primer trimestre
+[Ejercicio 1](/tema2/ejercicio1.html)| Crear una página web con el texto facilitado  y las etiquetas que son necesarias.
+[Ejercicio 2](/tema2/ejercicio2.html)| Crear una página html que incluya 6 niveles de cabecera seguidas de un pequeño párrafo de texto.
+[Ejercicio 3](/tema2/ejercicio3.html)| Usa el texto mostrado y dale el formato siguiendo las indicaciones:
+[Ejercicio 4](/tema2/ejercicio4.html)| Crea una página html que muestre el siguiente aspecto:
+[Ejercicio 5](/tema2/ejercicio5.html)| Crea una página que contenga varios párrafos, con distinta alineación y con
+encabezados.
+[Ejercicio 6](/tema2/ejercicio6.html)| Modifica la página anterior para incluir distintos formatos de texto.
+[Ejercicio 7](/tema2/ejercicio7.html)| Cambia los atributos de la página para cambiar el fondo y color. Prueba con las
+distintas opciones. 
+[Ejercicio 8](/tema2/misitio/)|Enlaces en HTML
+[Ejercicio 9](/tema2/welcome_to_runners_home/)| Enlaces en HTML
+[Ejercicio 10](/tema2/ejercicio10.html)| Listas anidadas
+[Ejercicio 11](/tema2/ejercicio11.html)| Listas
+[Ejercicio 12](/tema2/ejercicio12.html)| html styles
+[Ejercicio 13](/tema2/ejercicio13.html)| html borders
+[Ejercicio 14](/tema2/ejercicio14.html)| margin y padding
+[Ejercicio 15](/tema2/ejercicio15.html)| Tablas
+[Ejercicio 16](/tema2/ejercicio16.html)| Tablas
+[Ejercicio 17](/tema2/ejercicio17.html)| Tablas
+[Ejercicio 18](/tema2/ejercicio18.html)| Tablas
+[Ejercicio 19](/tema2/ejercicio19.html)| imágenes
+[Ejercicio 20](/tema2/ejercicio20.html)| imágenes
+[Ejercicio 21](/tema2/ejercicio21.html)| imágenes
+[Ejercicio 22](/tema2/ejercicio22.html)| Favicon
+[Ejercicio 23](/tema2/ejercicio23.html)| iFrame
+[Ejercicio 24](/tema2/ejercicio24.html)|  Formularios
 
 
 
