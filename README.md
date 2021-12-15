@@ -9,17 +9,15 @@ Ejercicios|Descripcion
 [PRUEBA MD](https://github.com/JuanJoseblandon/pruebas-)|Primeros pasos en el lenjuage markdown
 ### Tema 2
 Ejercicios|Descripcion
-----------|-----------
+----------|-------------------
 [Página Web](https://web4ujuanjoseba.w3spaces.com)|Proyecto del primer trimestre
-[Ejercicio 1](/tema2/ejercicio1.html)| Crear una página web con el texto facilitado  y las etiquetas que son necesarias.
-[Ejercicio 2](/tema2/ejercicio2.html)| Crear una página html que incluya 6 niveles de cabecera seguidas de un pequeño párrafo de texto.
-[Ejercicio 3](/tema2/ejercicio3.html)| Usa el texto mostrado y dale el formato siguiendo las indicaciones:
+[Ejercicio 1](/tema2/ejercicio1.html)| edicion de texto
+[Ejercicio 2](/tema2/ejercicio2.html)| encabezados
+[Ejercicio 3](/tema2/ejercicio3.html)| encabezados y parrafos
 [Ejercicio 4](/tema2/ejercicio4.html)| Crea una página html que muestre el siguiente aspecto:
-[Ejercicio 5](/tema2/ejercicio5.html)| Crea una página que contenga varios párrafos, con distinta alineación y con
-encabezados.
+[Ejercicio 5](/tema2/ejercicio5.html)| parrafos, alineacion y encabezados
 [Ejercicio 6](/tema2/ejercicio6.html)| Modifica la página anterior para incluir distintos formatos de texto.
-[Ejercicio 7](/tema2/ejercicio7.html)| Cambia los atributos de la página para cambiar el fondo y color. Prueba con las
-distintas opciones. 
+[Ejercicio 7](/tema2/ejercicio7.html)| Cambia los atributos de la página. 
 [Ejercicio 8](/tema2/misitio/)|Enlaces en HTML
 [Ejercicio 9](/tema2/welcome_to_runners_home/)| Enlaces en HTML
 [Ejercicio 10](/tema2/ejercicio10.html)| Listas anidadas
