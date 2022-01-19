@@ -35,6 +35,10 @@ Ejercicios|Descripcion
 [Ejercicio 22](/tema2/ejercicio22.html)| Favicon
 [Ejercicio 23](/tema2/ejercicio23.html)| iFrame
 [Ejercicio 24](/tema2/ejercicio24.html)|  Formularios
+[Ejercicio 25](/tema2/Html-2-25.html)|  Formularios
+[Ejercicio 26](/tema2/Html-2-26.html)|  Formularios
+
+
 
 
 
