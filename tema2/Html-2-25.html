@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 24</title>
+</head>
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form target="_blank" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" name="nombre" id="nombre" size="30"><br>
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" name="apellidos" id="apellidos" size="80"><br>
+        <label for="contraseña">Contraseña:</label><br>
+        <input type="text" name="contraseña" id="contraseña" size="10"><br>
+        <label for="dni">DNI:</label><br>
+        <input type="text" name="dni" id="dni" size="9">
+        <p style="padding:0%;">Sexo: <br>
+        <input type="radio" name="Sexo" id="hombre">
+        <label for="hombre">Hombre</label><br>
+        <input type="radio" name="Sexo" id="mujer">
+        <label for="mujer">Mujer</label><br>
+        </p>
+        <label for="foto">Incluir mi foto</label>
+        <input type="text" name="foto" id="foto" >
+        <input type="file" name="foto" id="foto" accept="image/jpg" accept="image/png"><br><br>
+        <input type="checkbox" name="newsletter" id="newsletter" checked>
+        <label for="newsletter">Suscribirme al boletín de novedades</label><br><br>
+        <fieldset style="width:35%;">
+            <legend>Datos personales</legend>
+            <label for="provincia">Provincia</label><br>
+            <select name="provincia" id="provincia">
+                <option value="-selecciona-">-selecciona-</option>
+                <option value="Almería">Almería</option>
+                <option value="Cádiz">Cádiz</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Granada">Granada</option>
+                <option value="Huelva">Huelva</option>
+                <option value="Jaén">Jaén</option>
+                <option value="Málaga">Málaga</option>
+                <option value="Sevilla">Sevilla</option>
+            </select>
+            <p><label for="dia">Fecha de nacimiento</label><br>
+                <input type="text" name="dia" id="dia" size="2">&nbsp;de
+                <label for="mes"></label>
+                <select name="mes" id="mes">
+                    <option value="Enero">Enero</option>
+                    <option value="Febrero">Febrero</option>
+                    <option value="Marzo">Marzo</option>
+                    <option value="Abril">Abril</option>
+                    <option value="Mayo">Mayo</option>
+                    <option value="Junio">Junio</option>
+                    <option value="Julio">Julio</option>
+                    <option value="Agosto">Agosto</option>
+                    <option value="Septiembre">Septiembre</option>     
+                    <option value="Octubre">Octubre</option>     
+                    <option value="Noviembre">Noviembre</option>     
+                    <option value="Diciembre">Diciembre</option>  
+                </select>
+                &nbsp;de
+                <label for="año"></label>
+                <input type="text" name="año" id="año" size="4">
+            </p>
+            <label for="interes">Temas  de interés</label><br>
+                <select name="interes" id="interes" size="5" multiple>
+                    <option value="Administraciónde bases de datos">Administraciónde bases de datos</option>
+                    <option value="Análisis y programación">Análisis y programación</option>
+                    <option value="Arquitectura">Arquitectura</option>
+                    <option value="Calidad">Calidad</option>
+                    <option value="ERP,CRM,Business Intelligence">ERP,CRM,Business Intelligence</option>
+                </select>
+        </fieldset>
+        <br><br>
+        <input type="submit" value="Guardar cambios">
+        <input type="reset" value="Borrarlos datos introducidos">
+    </form>
+</body>
+</html>
