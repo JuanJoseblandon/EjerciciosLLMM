@@ -37,6 +37,10 @@ Ejercicios|Descripcion
 [Ejercicio 24](/tema2/ejercicio24.html)|  Formularios
 [Ejercicio 25](/tema2/Html-2-25.html)|  Formularios
 [Ejercicio 26](/tema2/Html-2-26.html)|  video
+[Ejercicio 27](/tema2/Html-2-27.html)|  audio
+[Ejercicio 28](/tema2/Html-2-28.html)|  video de youtube
+
+
 
 
 
