@@ -40,6 +40,7 @@ Ejercicios|Descripcion
 [Ejercicio 27](/tema2/Html-2-27.html)|  audio
 [Ejercicio 28](/tema2/Html-2-28.html)|  video de youtube
 [Ejercicio 29](/Tema_3/Css-1-1.html)|CSS Fomato de texto
+[Ejericio 30](/Tema_3/CSS_Ejercicio2)| Diseño CSS
 
 
 
