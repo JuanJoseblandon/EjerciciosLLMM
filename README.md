@@ -44,7 +44,7 @@ Ejercicios|Descripcion
 Ejercicios|Descripcion
 ----------|-----------
 [Ejercicio 1](/Tema_3/Css-1-1.html)|CSS Fomato de texto
-[Ejericio 2](/Tema_3/CSS_Ejercicio2)| Diseño CSS
+[Ejercicio 2](/Tema_3/CSS_Ejercicio2)| Diseño CSS
 
 
 
