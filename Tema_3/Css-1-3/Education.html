@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ejercicio 3 css</title>
+    <style>
+
+.sidebar{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  background-color: rgb(232, 232, 232);
+  overflow-x:auto;
+  padding-top: 30px;
+  box-shadow: #818181;
+}
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+.sidebar a:hover {
+  background-color: lightgray;
+}
+.h1,h2{
+    text-align: center;
+    font-size: xx-large;
+}
+.p{
+    text-align: right;
+    float: center;
+}
+.contenedor{
+    font-size: large;
+   
+}
+.years{
+   font-weight: bold;
+   margin-right: 250px;
+   display: block;
+}
+.info{
+    display: block;        
+    margin-right: 100px;
+    text-align: justify;
+    display: inline;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="sidebar" style="width:25%;right:0;">
+        <a href="Personal_data.html">Personal data</a>
+        <br>
+        <a href="Education.html">Education</a>
+        <br>
+        <a href="Professional_xp.html" >Professional experience</a>
+      </div>
+      <h2>Curriculum Vitae</h2>
+      <h2>Welcome to my CV!</h2>
+<div class="contenedor">
+        <p class="years">2005-2009</p>
+        <p class="info" >computer engineering in the <br>
+            technical university of kyrgysztan in <br>
+            bishkek
+        </p><br>
+        <br> 
+        <p class="years">2001-2005</p>
+        <p class="info">high school "manas" in osh</p> <br>
+        <br>
+        <p class="years">1995-2001</p>
+        <p class="info"> primary school</p>
+</div>
+</body>
+</html>
