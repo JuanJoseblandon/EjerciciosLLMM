@@ -46,9 +46,9 @@ Ejercicios|Descripcion
 [Ejercicio 1](/Tema_3/Css-1-1.html)|CSS Fomato de texto
 [Ejercicio 2](/Tema_3/CSS_Ejercicio2)| Diseño CSS
 [Ejercicio 3](/Tema_3/Css-1-3)|estilos de enlaces 
-[Ejercicio 4](/Tema_3/Css-1-4.html)Estilos de tabla 1
-[Ejercicio 5](/Tema_3/Css-1-5.html)Estilos de tablas 2
-[Ejercicio 8](/Tema_3/Css-1-8.html)Posición absoluta
+[Ejercicio 4](/Tema_3/Css-1-4.html)|Estilos de tabla 1
+[Ejercicio 5](/Tema_3/Css-1-5.html)|Estilos de tablas 2
+[Ejercicio 8](/Tema_3/Css-1-8.html)|Posición absoluta
 
 
 
