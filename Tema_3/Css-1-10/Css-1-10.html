@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>galeria de imagenes</title>
+    <style>
+body {
+    margin: 0%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="">inicio</a></li>
+        <li><a href="">noticias</a></li>
+        <li><a href="">sobre nosotros</a></li>
+    </ul>
+    <div class="gallery">
+        <a target="_blank" href="el_santo.jpg">
+          <img src="el_santo.jpg" alt="el_santo" width="600" height="400">
+        </a>
+        <div class="desc">El Santo</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="los_vex.jpg">
+          <img src="los_vex.jpg" alt="los_vex" width="600" height="400">
+        </a>
+        <div class="desc">Los vex</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="el_pistolero.png">
+          <img src="el_pistolero.png" alt="el_pistolero" width="600" height="400">
+        </a>
+        <div class="desc">El pistolero</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="los_barones.jpg">
+          <img src="los_barones.jpg" alt="los_barones" width="600" height="400">
+        </a>
+        <div class="desc">Los barones</div>
+</body>
+</html>
