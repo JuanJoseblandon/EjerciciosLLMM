@@ -50,6 +50,7 @@ Ejercicios|Descripcion
 [Ejercicio 5](/Tema_3/Css-1-5.html)|Estilos de tablas 2
 [Ejercicio 8](/Tema_3/Css-1-8.html)|Posición absoluta
 [Ejercicio 9](/Tema_3/Css-1-9.html)|Flexbox
+[Ejecicio 10](/Tema_3/Css-1-10)|Galeria de imagenes
 
 
 
