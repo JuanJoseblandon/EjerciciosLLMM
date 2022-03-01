@@ -56,7 +56,7 @@ Ejercicios|Descripcion
 ### JavaScript
 Ejercicios|Descripcion
 ----------|-----------
-[Ejercicio 1]
+[Ejercicio 1]()
 
 
 
