@@ -41,6 +41,7 @@ Ejercicios|Descripcion
 [Ejercicio 28](/tema2/Html-2-28.html)|  video de youtube
 ## Trimestre 2
 ### Tema 3
+#### CSS
 Ejercicios|Descripcion
 ----------|-----------
 [Ejercicio 1](/Tema_3/Css-1-1.html)|CSS Fomato de texto
@@ -51,6 +52,11 @@ Ejercicios|Descripcion
 [Ejercicio 8](/Tema_3/Css-1-8.html)|Posición absoluta
 [Ejercicio 9](/Tema_3/Css-1-9.html)|Flexbox
 [Ejecicio 10](/Tema_3/Css-1-10)|Galeria de imagenes
+
+### JavaScript
+Ejercicios|Descripcion
+----------|-----------
+[Ejercicio 1]
 
 
 
