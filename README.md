@@ -44,7 +44,7 @@ Ejercicios|Descripcion
 #### CSS
 Ejercicios|Descripcion
 ----------|-----------
-[Página Web](https://thewildprojectfan.000webhostapp.com/)
+[Página Web](https://thewildprojectfan.000webhostapp.com/)|Proyecto de tercer trimestre 
 [Ejercicio 1](/Tema_3/Css-1-1.html)|CSS Fomato de texto
 [Ejercicio 2](/Tema_3/CSS_Ejercicio2)| Diseño CSS
 [Ejercicio 3](/Tema_3/Css-1-3)|estilos de enlaces 
