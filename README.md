@@ -57,7 +57,7 @@ Ejercicios|Descripcion
 ### JavaScript
 Ejercicios|Descripcion
 ----------|-----------
-[Ejercicio 1](/Tema_3/Ejercicio_JavaScrips/javaScrip1.html)|ejercicio de javascriot
+[Ejercicio 1](/Tema_3/Ejercicio_JavaScrips/javaScrip1.html)|ejercicio de javascript
 [Ejercicio 2](/Tema_3/Ejercicio_JavaScrips/javaScrip2.html)|ejercicio de javascript
 
 
