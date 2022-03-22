@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h2>Imágenes de spiders</h2>
+ 
+    <p>Ejemplo de JavaScript en el que cambiamos las imágenes mostradas el pulsar un botón</p>
+     
+    <img id="miImagen" src="spider6.jpg" style="height:300px"><br>
+     
+    <button onclick="cambiaspider('spider1.jpg')">spider 1</button>    
+    <button onclick="cambiaspider('spider2.png')">spider 2</button>    
+    <button onclick="cambiaspider('spider3.jpg')">spider 3</button>        
+    <button onclick="cambiaspider('spider4.jpg')">spider 4</button>    
+    <button onclick="cambiaspider('spider5.jpg')">spider 5</button>    
+    <button onclick="cambiaspider('spider6.jpg')">spider 6</button>    
+    
+    
+
+    <h2>Imagenes de coches</h2>  
+
+    <p>ejemplo de javascript en el que cambiamos las imagenes mostradas al pulsar un boton</p>
+
+    <img id="miImagen2" src="coche6.jpg" style="height:300px"><br>
+
+    <button onclick="cambiacoche('coche1.jpg')">coche 1</button>    
+    <button onclick="cambiacoche('coche2.jpg')">coche 2</button>    
+    <button onclick="cambiacoche('coche3.jpg')">coche 3</button>        
+    <button onclick="cambiacoche('coche4.jpg')">coche 4</button>    
+    <button onclick="cambiacoche('coche5.jpg')">coche 5</button>    
+    <button onclick="cambiacoche('coche6.jpg')">coche 6</button>   
+
+    <script>
+        function cambiaspider(nombre) {
+            document.getElementById('miImagen').src = nombre;   
+        }
+    </script>
+     <script>
+        function cambiacoche(nombre) {
+            document.getElementById('miImagen2').src = nombre;   
+        }
+    </script>
+</body>
+</html>
