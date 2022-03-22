@@ -57,10 +57,10 @@ Ejercicios|Descripcion
 ### JavaScript
 Ejercicios|Descripcion
 ----------|-----------
-[Ejercicio 1](/Tema_3/Ejercicio_JavaScrips/javaScrip1.html)|ejercicio de javascript
-[Ejercicio 2](/Tema_3/Ejercicio_JavaScrips/javaScrip2.html)|ejercicio de javascript
-[Ejercicio 3](/Tema_3/Ejercicio_JavaScrips/javascript3.html)|ejercicio de javascript
-[Ejercicio 4](/Tema_3/Ejercicio_JavaScrips/javascript4.html)|ejercicio de javascxript
+[Ejercicio 1](/Tema_3/Ejercicio_JavaScrips/javaScrip1.html)|botones 1
+[Ejercicio 2](/Tema_3/Ejercicio_JavaScrips/javaScrip2.html)|botones 2
+[Ejercicio 3](/Tema_3/Ejercicio_JavaScrips/javascript3.html)|botones 3 
+[Ejercicio 4](/Tema_3/Ejercicio_JavaScrips/javascript4.html)|variables
 
 
 
