@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript5</title>
+</head>
+<body>
+    <h1>Cambiar fuente</h1>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <input type=button onclick="document.body.style.fontFamily = 'verdana'" value="poner Verdana" />  
+    <input type=button onclick="document.body.style.fontFamily = 'sans-serif'" value="poner sans" />  
+    <input type=button onclick="document.body.style.fontFamily = 'Cambria'" value="poner cambria" />  <br>
+    <h1>Cambiar imagen</h1>
+    <img src="spider1.jpg" width="300px" height="200px" alt="" id="demo"> <br>
+
+    <label for="imagenes" >Cambia de imagen</label>
+    <select name="imagenes" id="imagenes" onchange="myFunction()" >
+        <option value="spider1.jpg">Spiderman1</option>
+        <option value="spider2.png">Spiderman2</option>
+        <option value="spider3.jpg">Spiderman3</option>
+        <option value="coche1.jpg">Coche 1</option>
+        <option value="coche2.jpg">Coche 2</option>
+        <option value="coche3.jpg">Coche 3</option>
+    </select> <br>
+    <button type="button" onclick="cambiaParrafo()">Cambiar párrafo</button>
+    <p id="demo1">hola</p>
+    <script>
+function myFunction() {
+  var x = document.getElementById("imagenes").value;
+  document.getElementById("demo").src = x;
+}
+function cambiaParrafo() {
+  document.getElementById("demo1").innerHTML = "que tal?";
+}
+    </script>
+</body>
+</html>
