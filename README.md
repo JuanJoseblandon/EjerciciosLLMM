@@ -61,6 +61,9 @@ Ejercicios|Descripcion
 [Ejercicio 2](/Tema_3/Ejercicio_JavaScrips/javaScrip2.html)|botones 2
 [Ejercicio 3](/Tema_3/Ejercicio_JavaScrips/javascript3.html)|botones 3 
 [Ejercicio 4](/Tema_3/Ejercicio_JavaScrips/javascript4.html)|variables
+[Ejercicio 5](/Tema_3/Ejercicio_JavaScrips/javascript5.html)|basics
+[Ejercicio 6](/Tema_3/Ejercicio_JavaScrips/javascript6.html)|citas aleatorias
+
 
 
 
