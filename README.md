@@ -63,7 +63,9 @@ Ejercicios|Descripcion
 [Ejercicio 4](/Tema_3/Ejercicio_JavaScrips/javascript4.html)|variables
 [Ejercicio 5](/Tema_3/Ejercicio_JavaScrips/javascript5.html)|basics
 [Ejercicio 6](/Tema_3/Ejercicio_JavaScrips/javascript6.html)|citas aleatorias
-
+[Ejercicio 7](/Tema_3/Ejercicio_JavaScrips/javascript7.html)|Image slider
+[Ejercicio 8](/Tema_3/Ejercicio_JavaScrips/javascript8.html)|Calculadora
+[Ejercicio 9](/Tema_3/Ejercicio_JavaScrips/javascript9.html)|Temperatura
 
 
 
