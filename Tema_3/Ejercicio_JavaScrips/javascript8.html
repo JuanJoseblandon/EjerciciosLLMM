@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript8</title>
+    <link rel="stylesheet" href="javascript8.css">
+</head>
+<body>
+    <section class="calculadora">
+        <form>
+            <input type="text" class="pantalla" id="pantalla">
+        </form>
+        <div class="teclas">
+        <!--botones azules-->
+        <button  class="boton boton-azul" value="*" id="*" onclick="multiplicar()">X</button>
+        <button  class="boton boton-azul" value="/" id="/" onclick="dividir()">/</button>
+        <button  class="boton boton-azul" value="-" id="-" onclick="restar()">-</button>
+        <button  class="boton boton-azul" value="+" id="+" onclick="sumar()">+</button>
+        <!--botones grises-->
+        <button  class="boton boton-gris" value="." id="." onclick="punto()">.</button>
+        <button  class="boton boton-gris" value="9" id="9" onclick="nueve()">9</button>
+        <button  class="boton boton-gris" value="8" id="8" onclick="ocho()">8</button>
+        <button  class="boton boton-gris" value="7" id="7" onclick="siete()">7</button>
+        <button  class="boton boton-gris" value="6" id="6" onclick="seis()">6</button>
+        <button  class="boton boton-gris" value="5" id="5" onclick="cinco()">5</button>
+        <button  class="boton boton-gris" value="4" id="4" onclick="cuatro()">4</button>
+        <button  class="boton boton-gris" value="3" id="3" onclick="tres()">3</button>
+        <button  class="boton boton-gris" value="2" id="2" onclick="dos()">2</button>
+        <button  class="boton boton-gris" value="1" id="1" onclick="uno()">1</button>
+        <button  class="boton boton-gris" value="0" id="0" onclick="cero()" >0</button>
+        <button  class="boton-igual boton-gris" value="=" id="igual" onclick="igualar()">=</button>
+        <button  class="boton-limpiar boton-gris" value="C" id="borrar" onclick="borrar()" >C</button>
+        
+        </div>
+    </section>
+</body>
+<script src="Myjs8.js"></script>
+</html>
