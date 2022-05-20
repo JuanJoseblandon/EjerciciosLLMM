@@ -70,13 +70,14 @@ Ejercicios|Descripcion
 #### XML
 Ejercicios|Descripcion
 ----------|-----------
-[Ejercicio 1]
-[Ejercicio 2]
-[Ejercicio 3]
-[Ejercicio 4]
-[Ejercicio 5]
-[Ejercicio 6]
-[Ejercicio 7]
+[Projecto XML](JuanJoseblandon/ProjectoXML)|Projecto del tercer trimestre
+[Ejercicio 1](/Tema4/Ex1.xml)|ejercicio 1
+[Ejercicio 2](/Tema4/Ex2.xml)|ejercicio 2
+[Ejercicio 3](/Tema4/Ex3-err.txt)|ejercicio 3
+[Ejercicio 4](/Tema4/ex4.xml)|ejercicio 4
+[Ejercicio 5](/Tema4/Ex5b.xml)|ejercicio 5
+[Ejercicio 6](/Tema4/Ex6.xml)|ejercicio 6
+[Ejercicio 7](/Tema4/Ex7.xml)|ejercicio 7
 
 
 
