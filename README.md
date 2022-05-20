@@ -70,7 +70,7 @@ Ejercicios|Descripcion
 #### XML
 Ejercicios|Descripcion
 ----------|-----------
-[Projecto XML](/ProjectoXML)|Projecto del tercer trimestre
+[Projecto XML](JuanJoseblandon/ProjectoXML)|Projecto del tercer trimestre
 [Ejercicio 1](/Tema4/Ex1.xml)|ejercicio 1
 [Ejercicio 2](/Tema4/Ex2.xml)|ejercicio 2
 [Ejercicio 3](/Tema4/Ex3-err.txt)|ejercicio 3
