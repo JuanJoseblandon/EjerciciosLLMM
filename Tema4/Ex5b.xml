@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+
+<CDList>
+  <CD serial='B6B41B' disc-length='36:55'>
+  <record></record>
+  <artist></artist>
+  <songs>
+    <track>
+      <title></title>
+      <lenght></lenght>
+      <producer></producer>
+      <writer></writer>
+    </track>
+    <track>
+      <title></title>
+      <lenght></lenght>
+      <producer></producer>
+      <writer></writer>
+    </track>
+    <track>
+      <title></title>
+      <lenght></lenght>
+      <producer></producer>
+      <writer></writer>
+    </track>
+    <track>
+      <title></title>
+      <lenght></lenght>
+      <producer></producer>
+      <writer></writer>
+    </track>
+  </songs>
+  <year></year>
+  <category></category>
+</CD>
+</CDList>
