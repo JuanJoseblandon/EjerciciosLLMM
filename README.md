@@ -53,7 +53,6 @@ Ejercicios|Descripcion
 [Ejercicio 8](/Tema_3/Css-1-8.html)|Posición absoluta
 [Ejercicio 9](/Tema_3/Css-1-9.html)|Flexbox
 [Ejecicio 10](/Tema_3/Css-1-10)|Galeria de imagenes
-
 ### JavaScript
 Ejercicios|Descripcion
 ----------|-----------
@@ -66,9 +65,18 @@ Ejercicios|Descripcion
 [Ejercicio 7](/Tema_3/Ejercicio_JavaScrips/javascript7.html)|Image slider
 [Ejercicio 8](/Tema_3/Ejercicio_JavaScrips/javascript8.html)|Calculadora
 [Ejercicio 9](/Tema_3/Ejercicio_JavaScrips/javascript9.html)|Temperatura
-
-
-
+## Trimestre 3
+### Tema 4
+#### XML
+Ejercicios|Descripcion
+----------|-----------
+[Ejercicio 1]
+[Ejercicio 2]
+[Ejercicio 3]
+[Ejercicio 4]
+[Ejercicio 5]
+[Ejercicio 6]
+[Ejercicio 7]
 
 
 
