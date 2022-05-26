@@ -78,6 +78,20 @@ Ejercicios|Descripcion
 [Ejercicio 5](/Tema4/Ex5b.xml)|ejercicio 5
 [Ejercicio 6](/Tema4/Ex6.xml)|ejercicio 6
 [Ejercicio 7](/Tema4/Ex7.xml)|ejercicio 7
+#### XML-DOM
+Ejercicios|Descripcion
+----------|-----------
+[Ejercicio 1](/Tema4/XML-DOM/XML-DOM.js)|Ejercicio 1
+[Ejercicio 2](/Tema4/XML-DOM/XML-DOM2.js)|Ejercicio 2
+[Ejercicio 3](/Tema4/XML-DOM/XML-DOM3.js)|Ejercicio 3
+#### DOM
+Ejercicios|Descripcion|Archivos
+----------|-----------|----------
+[Ejercicio 1](/Tema4/DOM/DOM1.html)|Ejercicio 1|[dom1](/Tema4/DOM/dom1.js)
+[Ejercicio 2](/Tema4/DOM/DOM2.html)|Ejercicio 2|[dom2](/Tema4/DOM/dom2.js)
+[Ejercicio 3](/Tema4/DOM/DOM3.html)|Ejercicio 3|[dom3](/Tema4/DOM/dom3.js)
+#### 
+
 
 
 
