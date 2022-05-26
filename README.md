@@ -90,7 +90,13 @@ Ejercicios|Descripcion|Archivos
 [Ejercicio 1](/Tema4/DOM/DOM1.html)|Ejercicio 1|[dom1](/Tema4/DOM/dom1.js)
 [Ejercicio 2](/Tema4/DOM/DOM2.html)|Ejercicio 2|[dom2](/Tema4/DOM/dom2.js)
 [Ejercicio 3](/Tema4/DOM/DOM3.html)|Ejercicio 3|[dom3](/Tema4/DOM/dom3.js)
-#### 
+#### AJAX
+Ejercicios|Descripcion
+----------|-----------
+[Ejercicio 1](/Tema4/Ajax/Ajax1.js)|Ejercicio 1
+[Ejercicio 2](/Tema4/Ajax/Ajax2.js)|Ejercicio 2 
+
+
 
 
 
