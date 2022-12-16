@@ -10,7 +10,7 @@ Ejercicios|Descripcion
 ### Tema 2
 Ejercicios|Descripcion
 ----------|-------------------
-[Página Web](https://web4ujuanjoseba.w3spaces.com)|Proyecto del primer trimestre
+[Página Web](https://web4ujjba.000webhostapp.com)|Proyecto del primer trimestre
 [Ejercicio 1](/tema2/ejercicio1.html)| edicion de texto
 [Ejercicio 2](/tema2/ejercicio2.html)| encabezados
 [Ejercicio 3](/tema2/ejercicio3.html)| encabezados y parrafos
