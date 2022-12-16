@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/portfolio/destiny.ico" >
+    <title>enlaces_css</title>
+</head>
+<style>
+body{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.navbar{
+  
+  background-color: rgb(4, 4, 4);
+  overflow: auto;
+  margin: 0%;
+  width: auto;
+}
+.navbar a {
+float: left;
+padding: 10px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 17px;
+}
+.navbar a:hover{
+  background-color:#9500ff;
+}
+.active{
+  background-color:#00ff9598 ;
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: rgb(7, 187, 28);
+}
+.active{
+  background-color: indigo;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgb(3, 3, 3);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: rgb(75, 75, 75);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.button {
+background-color: #04AA6D;
+color: white;
+font-size: 15px;
+margin: auto;
+display: block;
+width: 200px;
+border-radius: 25px;
+text-align: center;
+text-decoration: none;
+padding: 10px;
+}
+.button:hover{
+background-color:#04794e;
+}
+.boton {
+background-color: #aa9704;
+color: white;
+font-size: 15px;
+margin: auto;
+display: block;
+width: 200px;
+text-align: center;
+text-decoration: none;
+padding: 10px;
+}
+.boton:hover{
+background-color:#6f0479;
+}
+.caja-gris{
+    background-color: lightgrey;
+   width:50%;
+   border-radius: 10px;
+  float: center;
+}
+.caja-blanca{
+    background-color: rgb(255, 255, 255);
+}
+.escrito {
+  color:red;
+}
+.tagcolor{
+  color: rgb(0, 0, 0);
+}
+.tagnamecolor {
+ color:brown;
+}
+.atributocolor{
+  color: blue;
+}
+</style>
+<body style="background-color:rgb(224, 255, 177);font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+  <div class="navbar">
+    <a  href="">menu</a>
+    <div class="dropdown">
+      <button class="dropbtn"><strong>HTML</strong> 
+      </button>
+      <div class="dropdown-content">
+        <a href="/portfolio/introduccion_html.html">introduccion</a>
+        <a href="/portfolio/encabezados.html">encabezados</a>
+        <a href="/portfolio/tablas_html.html">Tablas</a>
+        <a href="/portfolio/simbolos_html.html">simbolos</a>
+        <a href="/portfolio/estilos_html.html">estilos</a>
+        <a href="/portfolio/parrafos_html.html">parrafos</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+        <button class="dropbtn" style="background-color: indigo;"><strong>CSS</strong> 
+        </button>
+        <div class="dropdown-content">
+          <a href="/portfolio/fondos_css.html">fondos</a>
+          <a href="/portfolio/enlaces_css.html" style="background-color: rgb(44, 255, 11);" >enlaces</a>
+          <a href="/portfolio/listas_css.html">listas</a>
+          <a href="/portfolio/tablas_css.html">Tablas</a>
+          <a href="/portfolio/flotar_css.html">flotar</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn"><strong>SVG</strong> 
+        </button>
+        <div class="dropdown-content">
+          <a href="/portfolio/circulo.html">circulo</a>
+          <a href="/portfolio/elipse.html">elipse</a>
+          <a href="/portfolio/rectangulo.html">rectangulo</a>
+          <a href="/portfolio/poligono.html">poligono</a>
+          <a href="/portfolio/radial.html">radial</a>
+        </div>
+      </div> 
+</div>
+<div style="margin-left: 24px; font-size: 15px;">
+    <h1>Enlaces CSS</h1>
+    <hr>
+    <p>Con CSS, los enlaces se pueden diseñar de muchas formas diferentes.</p>
+    <hr>
+    <a href="" style="float: left;margin: 10px;">Enlaces de</a>      
+    <a class="texto_de_enlace" href="" style="text-decoration: none;float: left;margin-left: 20px;margin-right: 50px; margin-top: 10px;" >texto Enlace de texto</a>
+    <a href="" class="boton" style="float: left;">Botón de enlace</a>
+    <br>
+</div>
+<br>
+<hr>
+<div style="margin-left: 24px; font-size: 15px;">
+    <h1>Enlaces de estilo</h1>
+    <p>Los enlaces pueden ser de estilo con cualquier propiedad CSS (por ejemplo <span style="background: white;color: red;">color</span>, <span style="background: white;color: red;">font-family</span> ,
+     <span style="background: white;color: red;">background</span>, etc.).</p>
+</div>
+<div class="caja-gris"style="padding: 10px;margin-left:20px;">
+    <h3>Ejemplo:</h3>
+    <div class="caja-blanca">
+      <span class="tagnamecolor">a 
+        <span class="tagcolor">{</span> <br>
+        <span class="escrito" style="margin-left: 20px;">color</span>
+        <span class="tagcolor" style="margin-left: -5px;">:</span>
+        <span class="atributocolor">hotpink</span>
+        <span class="tagcolor" style="margin-left: -5px;">;</span> <br>
+        <span class="tagcolor" style="margin-left: 10px;">}</span>
+    </span>
+  </div>
+</div>
+<br>
+<hr>
+<p style="margin-left: 20px;">Además, los enlaces pueden tener un estilo diferente según el estado en el que se encuentren. <br>
+    Los cuatro estados de enlaces son:
+    <ul>
+        <li>a:link - un enlace normal no visitado</li>
+        <li>a:visited - un enlace que el usuario ha visitado</li>
+        <li>a:hover - un enlace cuando el usuario pasa el mouse sobre él</li>
+        <li>a:active - un enlace en el momento en que se hace clic en él</li>
+    </ul>
+</p>
+<div class="caja-gris"style="padding: 10px;margin-left:20px;width:600px;">
+    <h3>Ejemplo:</h3>
+    <div class="caja-blanca">
+      <span class="tagnamecolor">a:link 
+        <span class="tagcolor">{</span> <br>
+        <span class="escrito" style="margin-left: 20px;">color</span>
+        <span class="tagcolor" style="margin-left: -5px;">:</span>
+        <span class="atributocolor">red</span>
+        <span class="tagcolor" style="margin-left: -5px;">;</span> <br>
+        <span class="tagcolor" style="margin-left: 10px;">}</span>
+        <br> <br>
+        <span class="tagnamecolor">a:visited 
+        <span class="tagcolor">{</span> <br>
+        <span class="escrito" style="margin-left: 20px;">color</span>
+        <span class="tagcolor" style="margin-left: -5px;">:</span>
+        <span class="atributocolor">green</span>
+        <span class="tagcolor" style="margin-left: -5px;">;</span> <br>
+        <span class="tagcolor" style="margin-left: 10px;">}</span>
+        <br> <br>
+        <span class="tagnamecolor">a:hover  
+        <span class="tagcolor">{</span> <br>
+        <span class="escrito" style="margin-left: 20px;">color</span>
+        <span class="tagcolor" style="margin-left: -5px;">:</span>
+        <span class="atributocolor">hotpink</span>
+        <span class="tagcolor" style="margin-left: -5px;">;</span> <br>
+        <span class="tagcolor" style="margin-left: 10px;">}</span>
+        <br> <br>
+        <span class="tagnamecolor">a:active   
+        <span class="tagcolor">{</span> <br>
+        <span class="escrito" style="margin-left: 20px;">color</span>
+        <span class="tagcolor" style="margin-left: -5px;">:</span>
+        <span class="atributocolor">blue</span>
+        <span class="tagcolor" style="margin-left: -5px;">;</span> <br>
+        <span class="tagcolor" style="margin-left: 10px;">}</span>
+    </span>
+  </div>
+</div>
+<hr>
+  <br>
+  <div>
+    <a  href="/portfolio/listas_css.html"class="button" style="margin-bottom: 2px;float: right;">siguiente </a>
+    <a  href="/portfolio/fondos_css.html"class="button" style="margin-bottom: 2px; float: left;">átras </a>
+  </div>

@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href="/portfolio/destiny.ico">
+    <title>flotar</title>
+</head>
+<style>
+body{
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.navbar{
+
+background-color: rgb(4, 4, 4);
+overflow: auto;
+margin: 0%;
+width: auto;
+}
+.navbar a {
+float: left;
+padding: 10px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 17px;
+}
+.navbar a:hover{
+background-color:#9500ff;
+}
+.active{
+background-color:#00ff9598 ;
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: rgb(7, 187, 28);
+}
+.active{
+background-color: indigo;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgb(3, 3, 3);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: rgb(75, 75, 75);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.button {
+background-color: #04AA6D;
+color: white;
+font-size: 15px;
+margin: auto;
+display: block;
+width: 200px;
+border-radius: 25px;
+text-align: center;
+text-decoration: none;
+padding: 10px;
+}
+.button:hover{
+background-color:#04794e;
+}
+
+.caja-gris{
+  background-color: lightgrey;
+width:300px;
+border-radius: 10px;
+float: center;
+}
+.caja-blanca{
+  background-color: rgb(255, 255, 255);
+}
+.escrito {
+color:red;
+}
+.tagcolor{
+color: rgb(0, 0, 0);
+}
+.tagnamecolor {
+color:brown;
+}
+.atributocolor{
+color: blue;
+}
+#ejemplos{
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+}
+</style>
+<body style="background-color:rgb(224, 255, 177);font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+    <div class="navbar">
+      <a  href="/index.html">menu</a>
+      <div class="dropdown">
+        <button class="dropbtn"><strong>HTML</strong> 
+        </button>
+        <div class="dropdown-content">
+          <a href="/portfolio/introduccion_html.html">introduccion</a>
+          <a href="/portfolio/encabezados.html">encabezados</a>
+          <a href="/portfolio/tablas_html.html">Tablas</a>
+          <a href="/portfolio/simbolos_html.html">simbolos</a>
+          <a href="/portfolio/estilos_html.html">estilos</a>
+          <a href="/portfolio/parrafos_html.html">parrafos</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+          <button class="dropbtn" style="background-color: indigo;"><strong>CSS</strong> 
+          </button>
+          <div class="dropdown-content">
+            <a href="/portfolio/fondos_css.html">fondos</a>
+            <a href="/portfolio/enlaces_css.html">enlaces</a>
+            <a href="/portfolio/listas_css.html">listas</a>
+            <a href="/portfolio/tablas_css.html">Tablas</a>
+            <a href="/portfolio/flotar_css.html" style="background-color: rgb(44, 255, 11);" >flotar</a>
+          </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn"><strong>SVG</strong> 
+          </button>
+          <div class="dropdown-content">
+            <a href="/portfolio/circulo.html">circulo</a>
+            <a href="/portfolio/elipse.html">elipse</a>
+            <a href="/portfolio/rectangulo.html">rectangulo</a>
+            <a href="/portfolio/poligono.html">poligono</a>
+            <a href="/portfolio/radial.html">radial</a>
+          </div>
+        </div> 
+        <div id="google_translate_element" class="google" style="float:right"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+        }
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </div>
+  <div style="margin-left: 24px; font-size: 15px;">
+    <h1>La propiedad float</h1>
+    <p>LA propiedad <span style="color: red;background-color: rgb(255, 255, 255);">float</span>se utiliza para posicionar y dar formato al contenido,
+         por ejemplo, dejar que una imagen flote a la izquierda del texto en un contenedor.</p> 
+         <p> 
+         LA propiedad <span style="color: red;background-color: rgb(255, 255, 255);">float</span>puede tener uno de los siguiente valores <br>
+        <ul>
+            <li><span style="color: red;background-color: rgb(255, 255, 255);">left</span>- El elemento flota a la izquierda de su contenedor</li>
+            <li><span style="color: red;background-color: rgb(255, 255, 255);">right</span>- El elemento flota a la derecha de su contenedor</li>
+            <li><span style="color: red;background-color: rgb(255, 255, 255);">none</span>- El elemento no flota (se mostrará justo donde ocurre en el texto). Esto es predeterminado</li>
+            <li><span style="color: red;background-color: rgb(255, 255, 255);">inherit</span>-el elemento hereda el valor flotante de su elemento primario</li>
+        </ul>
+        En su uso más simple, la propiedad float se puede usar para ajustar texto alrededor de imágenes.
+        </p>
+        
+        <h1>Ejemplo - flotar: derecha;</h1>
+        <p>En el ejemplo siguiente se especifica que una imagen debe flotar a la derecha en un texto:</p>
+        <p id="ejemplos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac...
+        <p><img src="/portfolio/imagenes_de_proyecto/img_girl.jpg" alt="ej1" style="float: right;width:200px;"></p>
+        </p>
+        <div class="caja-gris"style="padding: 10px;margin-left:20px;">
+            <h3>Ejemplo</h3>
+            <div class="caja-blanca">
+                <span class="tagnamecolor">img 
+                    <span class="tagcolor">{</span> <br>
+                    <span class="escrito" style="margin-left: 20px;">float</span>
+                    <span class="tagcolor" style="margin-left: -5px;">:</span>
+                    <span class="atributocolor">right</span>
+                    <span class="tagcolor" style="margin-left: -5px;">;</span> <br>
+                    <span class="tagcolor" style="margin-left: 10px;">}</span>
+                  </span>
+            </div>
+            
+        </div>
+       <div>
+        <hr>
+          <h1>Ejemplo - flotar: izquierda;</h1>
+        <p>En el ejemplo siguiente se especifica que una imagen debe flotar a la derecha en un texto:</p>
+        <p id="ejemplos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac...
+        <p><img src="/portfolio/imagenes_de_proyecto/pic_trulli.jpg" alt="" style="float: left;width:200px;"></p>
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+         <br>
+        <br>
+       </div>
+     
+        <div class="caja-gris"style="padding: 10px;margin-left:20px;">
+            <h3>Ejemplo</h3>
+            <div class="caja-blanca">
+                <span class="tagnamecolor">img 
+                    <span class="tagcolor">{</span> <br>
+                    <span class="escrito" style="margin-left: 20px;">float</span>
+                    <span class="tagcolor" style="margin-left: -5px;">:</span>
+                    <span class="atributocolor">left</span>
+                    <span class="tagcolor" style="margin-left: -5px;">;</span> <br>
+                    <span class="tagcolor" style="margin-left: 10px;">}</span>
+                  </span>
+            </div>
+        </div>
+        
+</div>
+
+<div>
+  <hr>
+    <a  href="/portfolio/circulo.html"class="button" style="margin-bottom: 2px;float: right;">siguiente </a>
+    <a  href="/portfolio/tablas_css.html"class="button" style="margin-bottom: 2px; float: left;">átras </a>
+   </div>

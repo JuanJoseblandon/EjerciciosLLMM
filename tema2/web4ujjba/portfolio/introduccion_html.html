@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="/portfolio/destiny.ico" >
+    <title>introduccion a html</title>
+</head>
+<style>
+    body{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.navbar{
+  
+  background-color: rgb(4, 4, 4);
+  overflow: auto;
+  margin: 0%;
+  width: auto;
+}
+.navbar a {
+float: left;
+padding: 10px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 17px;
+}
+.navbar a:hover{
+  background-color:#9500ff;
+}
+.active{
+  background-color:#00ff9598 ;
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: rgb(7, 187, 28);
+}
+.active{
+  background-color: indigo;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgb(3, 3, 3);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: rgb(75, 75, 75);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.button {
+background-color: #04AA6D;
+color: white;
+font-size: 15px;
+margin: auto;
+display: block;
+width: 200px;
+border-radius: 25px;
+text-align: center;
+text-decoration: none;
+padding: 10px;
+}
+.button:hover{
+background-color:#04794e;
+}
+.caja-gris{
+    background-color: lightgrey;
+   width:50%;
+   border-radius: 10px;
+  float: center;
+}
+.caja-blanca{
+    background-color: rgb(255, 255, 255);
+}
+.escrito {
+  color:black;
+}
+.tagcolor{
+  color: rgb(68, 0, 255);
+}
+.tagnamecolor {
+ color:brown;
+}
+.atributocolor{
+  color: red;
+}
+</style>
+<body style="background-color:rgb(224, 255, 177);font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+    <div class="navbar">
+        <a  href="/index.html">menu</a> 
+        <div class="dropdown">
+            <button class="dropbtn" style="background-color: indigo;"><strong>HTML</strong> 
+            </button>
+            <div class="dropdown-content">
+        <a href="/portfolio/introduccion_html.html" style="background-color: rgb(44, 255, 11);">introduccion</a>
+        <a href="/portfolio/encabezados.html">encabezados</a>
+        <a href="/portfolio/tablas_html.html">Tablas</a>
+        <a href="/portfolio/simbolos_html.html">simbolos</a>
+        <a href="/portfolio/estilos_html.html">estilos</a>
+        <a href="/portfolio/parrafos_html.html">parrafos</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+        <button class="dropbtn"><strong>CSS</strong> 
+        </button>
+        <div class="dropdown-content">
+          <a href="/portfolio/fondos_css.html">fondos</a>
+          <a href="/portfolio/enlaces_css.html">enlaces</a>
+          <a href="/portfolio/listas_css.html">listas</a>
+          <a href="/portfolio/tablas_css.html">Tablas</a>
+          <a href="/portfolio/flotar_css.html">flotar</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn"><strong>SVG</strong> 
+        </button>
+        <div class="dropdown-content">
+          <a href="/portfolio/circulo.html">circulo</a>
+          <a href="/portfolio/elipse.html">elipse</a>
+          <a href="/portfolio/rectangulo.html">rectangulo</a>
+          <a href="/portfolio/poligono.html">poligono</a>
+          <a href="/portfolio/radial.html">radial</a>
+        </div>
+      </div> 
+  </div>
+<h1 style="font-size: 40px;">¿Qué es el lenguaje HTML?</h1>
+<p style="font-size: 24px;">HTML son las siglas de <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage <br>
+HTML es el lenguaje estandar para crear páginas web, con el se puede describir una estructura de una página web. <br>
+HTML consta de una serie de elemntos que le dicen al navegador com debe comportarse </p>
+<hr>
+<div class="caja-gris" style="padding: 16px;float: center;">
+  <h3>Ejemplo:</h3>
+  <div class="caja-blanca">
+      <span class="tagnamecolor">
+          <span class="tagcolor" ><</span>!DOCTYPE
+          <span class="atributocolor">html</span>
+          <span class="tagcolor" style="margin-left: -5px;" ></span>
+        </span> <br>
+        <span class="tagnamecolor" >
+          <span class="tagcolor"><</span>html
+          <span class="tagcolor" style="margin-left: -5px;">></span> <br>
+        <span class="tagnamecolor">
+          <span class="tagcolor" >&lt;</span>title
+          <span class="tagcolor"style="margin-left: -5px;" >></span>
+          <span class="escrito">Tutorial de HTML</span> 
+          <span class="tagcolor" >&lt;/</span>title
+          <span class="tagcolor"style="margin-left: -5px;" >></span>
+            <br>
+            <span class="tagcolor" ><</span>body 
+          <span class="tagcolor"style="margin-left: -5px;" >></span>
+          <br>
+          <br>
+          <span class="tagcolor"><</span>h1
+          <span class="tagcolor"style="margin-left: -5px;" >></span>
+          <span class="escrito">This is a heading</span> 
+          <span class="tagcolor">&lt;/</span>h1
+          <span class="tagcolor"style="margin-left: -5px;" >></span> <br>
+          <span class="tagcolor" >&lt/</span>body
+          <span class="tagcolor"style="margin-left: -5px;" >></span> <br>
+          <span class="tagcolor" >&lt/</span>html
+          <span class="tagcolor" style="margin-left: -5px;">></span>
+       </span> 
+  </div>
+</div>
+<div>
+  <hr>
+<a  href="/portfolio/encabezados.html"class="button" style="margin-bottom: 2px;float: right;">siguiente </a>
+<a  href="/index.html"class="button" style="margin-bottom: 2px; float: left;">átras </a>
+</div>
+</div>
+</body>
+</html>

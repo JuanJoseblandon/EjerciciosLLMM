@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon"  href="/portfolio/destiny.ico">
+    <title>listas</title>
+</head>
+<style>
+body{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.navbar{
+  
+  background-color: rgb(4, 4, 4);
+  overflow: auto;
+  margin: 0%;
+  width: auto;
+}
+.navbar a {
+float: left;
+padding: 10px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 17px;
+}
+.navbar a:hover{
+  background-color:#9500ff;
+}
+.active{
+  background-color:#00ff9598 ;
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: rgb(7, 187, 28);
+}
+.active{
+  background-color: indigo;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgb(3, 3, 3);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: rgb(75, 75, 75);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.button {
+background-color: #04AA6D;
+color: white;
+font-size: 15px;
+margin: auto;
+display: block;
+width: 200px;
+border-radius: 25px;
+text-align: center;
+text-decoration: none;
+padding: 10px;
+}
+.button:hover{
+background-color:#04794e;
+}
+.caja-gris{
+    background-color: lightgrey;
+   width:50%;
+   border-radius: 10px;
+  float: center;
+}
+.caja-blanca{
+    background-color: rgb(255, 255, 255);
+}
+.escrito {
+  color:red;
+}
+.tagcolor{
+  color: rgb(0, 0, 0);
+}
+.tagnamecolor {
+ color:brown;
+}
+.atributocolor{
+  color: blue;
+}
+.lista1{
+    float: left;
+    list-style-type: circle;
+}
+.lista2{
+    float: center;
+}
+
+</style>
+<body style="background-color:rgb(224, 255, 177);font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+  <div class="navbar">
+    <a  href="/index.html">menu</a>
+    <div class="dropdown">
+      <button class="dropbtn"><strong>HTML</strong> 
+      </button>
+      <div class="dropdown-content">
+        <a href="/portfolio/introduccion_html.html">introduccion</a>
+        <a href="/portfolio/encabezados.html">encabezados</a>
+        <a href="/portfolio/tablas_html.html">Tablas</a>
+        <a href="/portfolio/simbolos_html.html">simbolos</a>
+        <a href="/portfolio/estilos_html.html">estilos</a>
+        <a href="/portfolio/parrafos_html.html">parrafos</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+        <button class="dropbtn" style="background-color: indigo;"><strong>CSS</strong> 
+        </button>
+        <div class="dropdown-content">
+          <a href="/portfolio/fondos_css.html">fondos</a>
+          <a href="/portfolio/enlaces_css.html">enlaces</a>
+          <a href="/portfolio/listas_css.html" style="background-color: rgb(44, 255, 11);" >listas</a>
+          <a href="/portfolio/tablas_css.html">Tablas</a>
+          <a href="/portfolio/flotar_css.html">flotar</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn"><strong>SVG</strong> 
+        </button>
+        <div class="dropdown-content">
+          <a href="/portfolio/circulo.html">circulo</a>
+          <a href="/portfolio/elipse.html">elipse</a>
+          <a href="/portfolio/rectangulo.html">rectangulo</a>
+          <a href="/portfolio/poligono.html">poligono</a>
+          <a href="/portfolio/radial.html">radial</a>
+        </div>
+      </div> 
+      <div id="google_translate_element" class="google" style="float:right"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+        }
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div>
+<div style="margin-left: 24px; font-size: 15px;">
+    <h1>Listas CSS</h1>
+    <hr>
+    <p>Existen 2 tipos generales de listas CSS</p>
+    <hr>
+    <div class="lista1" style="margin-right: 50px;">
+        Listas desordenadas:
+    <ul>
+        <li>café</li>
+        <li>té</li>
+        <li>fanta</li>
+    </ul>
+    </div>
+    <div class="lista2" >
+        listas ordenadas:
+        <ol>
+            <li>Café</li>
+            <li>té</li>
+            <li>fanta</li>
+        </ol>
+    </div>
+</div>
+<br>
+<div style="margin-left: 24px; font-size: 15px;">
+    <hr>
+    <h1>Propiedades de listas HTML y CSS</h1>
+    <p>En HTML, hay dos tipos principales de listas:</p>
+    <ul>
+        <li>listas desordenadas <span> (&ltul>):</span> los elementos de la lista están marcados con viñetas</li>
+        <li>listas ordenadas <span>(&ltol>):</span> los elementos de la lista están marcados con números o letras
+        </li>
+    </ul>
+    <p>Las propiedades de la lista CSS le permiten:</p>
+    <ul>
+        <li>Establecer diferentes marcadores de elementos de lista para listas ordenadas</li>
+        <li>Establecer diferentes marcadores de elementos de lista para listas desordenadas</li>
+        <li>Establecer una imagen como marcador de elemento de lista</li>
+        <li>Agregar colores de fondo a listas y elementos de lista</li>
+    </ul>
+    <hr>
+    <h1>Diferentes marcadores de elementos de lista</h1>
+    <p>La <span style="color: red; background-color: rgb(255, 255, 255);">list-style-typepropiedad</span> 
+    especifica el tipo de marcador de elemento de lista. <br>
+    El siguiente ejemplo muestra algunos de los marcadores de elementos de lista disponibles:
+</p>
+<div>
+    <div class="caja-gris"style="padding: 10px;width:600px;">
+        <h3>Ejemplo:</h3>
+        <div class="caja-blanca">
+          <span class="tagnamecolor">ul.a  
+            <span class="tagcolor">{</span> <br>
+            <span class="escrito" style="margin-left: 20px;">list-style-type</span>
+            <span class="tagcolor" style="margin-left: -5px;">:</span>
+            <span class="atributocolor">circle</span>
+            <span class="tagcolor" style="margin-left: -5px;">;</span> <br>
+            <span class="tagcolor" style="margin-left: 10px;">}</span>
+            <br> <br>
+            <span class="tagnamecolor">ul.b 
+            <span class="tagcolor">{</span> <br>
+            <span class="escrito" style="margin-left: 20px;">list-style-type</span>
+            <span class="tagcolor" style="margin-left: -5px;">:</span>
+            <span class="atributocolor">square</span>
+            <span class="tagcolor" style="margin-left: -5px;">;</span> <br>
+            <span class="tagcolor" style="margin-left: 10px;">}</span>
+            <br> <br>
+            <span class="tagnamecolor">ol.c 
+            <span class="tagcolor">{</span> <br>
+            <span class="escrito" style="margin-left: 20px;">list-style-type</span>
+            <span class="tagcolor" style="margin-left: -5px;">:</span>
+            <span class="atributocolor">upper-roman</span>
+            <span class="tagcolor" style="margin-left: -5px;">;</span> <br>
+            <span class="tagcolor" style="margin-left: 10px;">}</span>
+            <br> <br>
+            <span class="tagnamecolor">ol.d  
+            <span class="tagcolor">{</span> <br>
+            <span class="escrito" style="margin-left: 20px;">list-style-type</span>
+            <span class="tagcolor" style="margin-left: -5px;">:</span>
+            <span class="atributocolor">lower-alpha</span>
+            <span class="tagcolor" style="margin-left: -5px;">;</span> <br>
+            <span class="tagcolor" style="margin-left: 10px;">}</span>
+        </span>
+      </div>
+    </div>
+    <hr>
+</div>
+<div>
+    <a  href="/portfolio/tablas_css.html"class="button" style="margin-bottom: 2px;float: right;">siguiente </a>
+    <a  href="/portfolio/enlaces_css.html"class="button" style="margin-bottom: 2px; float: left;">átras </a>
+  </div>
+

@@ -1,0 +1,511 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon"  href="/portfolio/destiny.ico">
+    <title>tablas</title>
+</head>
+<style>
+body{
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.navbar{
+
+background-color: rgb(4, 4, 4);
+overflow: auto;
+margin: 0%;
+width: auto;
+}
+.navbar a {
+float: left;
+padding: 10px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 17px;
+}
+.navbar a:hover{
+background-color:#9500ff;
+}
+.active{
+background-color:#00ff9598 ;
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: rgb(7, 187, 28);
+}
+.active{
+background-color: indigo;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgb(3, 3, 3);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: rgb(75, 75, 75);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.button {
+background-color: #04AA6D;
+color: white;
+font-size: 15px;
+margin: auto;
+display: block;
+width: 200px;
+border-radius: 25px;
+text-align: center;
+text-decoration: none;
+padding: 10px;
+}
+.button:hover{
+background-color:#04794e;
+}
+
+.caja-gris{
+  background-color: lightgrey;
+width:50%;
+border-radius: 10px;
+float: center;
+}
+.caja-blanca{
+  background-color: rgb(255, 255, 255);
+}
+.escrito {
+color:red;
+}
+.tagcolor{
+color: rgb(0, 0, 0);
+}
+.tagnamecolor {
+color:brown;
+}
+.atributocolor{
+color: blue;
+}
+#customers {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<body style="background-color:rgb(224, 255, 177);font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+    <div class="navbar">
+      <a  href="/index.html">menu</a>
+      <div class="dropdown">
+        <button class="dropbtn"><strong>HTML</strong> 
+        </button>
+        <div class="dropdown-content">
+          <a href="/portfolio/introduccion_html.html">introduccion</a>
+          <a href="/portfolio/encabezados.html">encabezados</a>
+          <a href="/portfolio/tablas_html.html">Tablas</a>
+          <a href="/portfolio/simbolos_html.html">simbolos</a>
+          <a href="/portfolio/estilos_html.html">estilos</a>
+          <a href="/portfolio/parrafos_html.html">parrafos</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+          <button class="dropbtn" style="background-color: indigo;"><strong>CSS</strong> 
+          </button>
+          <div class="dropdown-content">
+            <a href="/portfolio/fondos_css.html">fondos</a>
+            <a href="/portfolio/enlaces_css.html">enlaces</a>
+            <a href="/portfolio/listas_css.html">listas</a>
+            <a href="/portfolio/tablas_css.html" style="background-color: rgb(44, 255, 11);">Tablas</a>
+            <a href="/portfolio/flotar_css.html">flotar</a>
+          </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn"><strong>SVG</strong> 
+          </button>
+          <div class="dropdown-content">
+            <a href="/portfolio/circulo.html">circulo</a>
+            <a href="/portfolio/elipse.html">elipse</a>
+            <a href="/portfolio/rectangulo.html">rectangulo</a>
+            <a href="/portfolio/poligono.html">poligono</a>
+            <a href="/portfolio/radial.html">radial</a>
+          </div>
+        </div> 
+        <div id="google_translate_element" class="google" style="float:right"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+        }
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </div>
+  <div style="margin-left: 24px; font-size: 15px;">
+    <h1>Tablas CSS</h1>
+    <p>El aspecto de una tabla HTML se puede mejorar enormemente con CSS: </p>
+    <table id="customers">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Berglunds snabbköp</td>
+        <td>Christina Berglund</td>
+        <td>Sweden</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+      </tr>
+      <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>Königlich Essen</td>
+        <td>Philip Cramer</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+      </tr>
+      <tr>
+        <td>North/South</td>
+        <td>Simon Crowther</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>Paris spécialités</td>
+        <td>Marie Bertrand</td>
+        <td>France</td>
+      </tr>
+    </table>
+    <div class="caja-gris" style="padding: 16px;width: 600px;">
+        <h3>Ejemplo</h3>
+      <div class="caja-blanca">
+        <span class="tagnamecolor">
+          <span class="tagcolor"><</span>Table 
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left: 20px;"><</span>tr
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>th
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Company</span>
+          <span class="tagcolor"  >&lt/</span>th
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>th
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Contact</span>
+          <span class="tagcolor"  >&lt/</span>th
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>th
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Country</span>
+          <span class="tagcolor"  >&lt/</span>th
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left: 20px;">&lt;/</span>tr 
+          <span class="tagcolor">></span> <br>
+          <span class="tagcolor"style="padding-left:20px;"><</span>tr 
+          <span class="tagcolor">></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Alfreds Futterkiste</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Maria Anders</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Germany</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left: 20px;">&lt;/</span>tr 
+          <span class="tagcolor">></span> <br>
+          <span class="tagcolor"style="padding-left:20px;"><</span>tr 
+          <span class="tagcolor">></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Centro comercial Moctezuma</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Francisco Chang</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Mexico</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left: 20px;">&lt;/</span>tr 
+          <span class="tagcolor">></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="escrito" >Ernst Handel</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Roland Mendel</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Austria</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left: 20px;">&lt;/</span>tr 
+          <span class="tagcolor">></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="escrito" >Island Trading</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Helen Bennett</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >UK</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left: 20px;">&lt;/</span>tr 
+          <span class="tagcolor">></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="escrito" >Königlich Essen</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Philip Cramer</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Germany</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left: 20px;">&lt;/</span>tr 
+          <span class="tagcolor">></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="escrito" >Laughing Bacchus Winecellars</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Yoshi Tannamuri</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Canada</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left: 20px;">&lt;/</span>tr 
+          <span class="tagcolor">></span> <br>
+          
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="escrito" >Magazzini</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Giovanni Rovelli</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Italy</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left: 20px;">&lt;/</span>tr 
+          <span class="tagcolor">></span> <br>
+          
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="escrito" >North/South</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Simon Crowther</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >UK</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left: 20px;">&lt;/</span>tr 
+          <span class="tagcolor">></span> <br>
+          
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="escrito" >Paris spécialités</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >Marie Bertrand</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left:40px;"><</span>td
+          <span class="tagcolor" >></span>
+          <span class="escrito" >France</span>
+          <span class="tagcolor"  >&lt/</span>td
+          <span class="tagcolor" >></span> <br>
+          <span class="tagcolor" style="padding-left: 20px;">&lt;/</span>tr 
+          <span class="tagcolor">></span> <br>
+          <span class="tagcolor">&lt;/</span>Table 
+          <span class="tagcolor" >></span> <br>
+       </span> 
+      </div>
+      </div>
+      <h1>bordes</h1>
+      <p>Para especificar los bordes de la tabla en CSS, se usa la propiedad 
+      <span style="color: red;background-color: rgb(255, 255, 255);">&ltborder&gt</span> </p>
+     <p>El siguiente ejemplo especifica un borde negro para los elementos &lttable&gt, &ltth&gt y &lttd&gt:</p> 
+     <table>
+       <tr>
+         <th>Firstname</th>
+         <th>Lastname</th>
+       </tr>
+       <tr>
+         <td>Peter</td>
+         <td>Griffin</td>
+       </tr>
+       <tr>
+         <td>Lois</td>
+         <td>Griffin</td>
+       </tr>
+     </table>
+     <div class="caja-gris" style="padding: 16px;">
+      <h3>Ejemplo</h3>
+    <div class="caja-blanca">
+      <span class="tagnamecolor">
+        <span class="tagcolor"><</span>Table 
+        <span class="tagcolor" >></span> <br>
+        <span class="tagcolor" style="padding-left: 20px;"><</span>tr
+        <span class="tagcolor" >></span> <br>
+        <span class="tagcolor" style="padding-left:40px;margin-left: 10px;"><</span>th
+        <span class="tagcolor" >></span>
+        <span class="escrito" >Firstname</span>
+        <span class="tagcolor"  >&lt/</span>th
+        <span class="tagcolor" >></span> <br>
+        <span class="tagcolor" style="padding-left:40px;margin-left: 10px;""><</span>th
+        <span class="tagcolor" >></span>
+        <span class="escrito" >Lastname</span>
+        <span class="tagcolor"  >&lt/</span>th
+        <span class="tagcolor" >></span> <br>
+        <span class="tagcolor" style="margin-left: 10px;" >&lt/</span>tr
+        <span class="tagcolor"  >></span> <br>
+        <span class="tagcolor" style="padding-left: 10px;"><</span>tr
+        <span class="tagcolor" >></span> <br>
+        <span class="tagcolor" style="padding-left:40px;margin-left: 10px;"><</span>td
+        <span class="tagcolor" >></span>
+        <span class="escrito" >Peter</span>
+        <span class="tagcolor"  >&lt/</span>td
+        <span class="tagcolor" >></span> <br>
+        <span class="tagcolor" style="padding-left:40px;margin-left: 10px;""><</span>td
+        <span class="tagcolor" >></span>
+        <span class="escrito" >Griffin</span>
+        <span class="tagcolor"  >&lt/</span>td
+        <span class="tagcolor" >></span> <br>
+        <span class="tagcolor" style="margin-left: 10px;" >&lt/</span>tr 
+        <span class="tagcolor" >></span> <br>
+        <span class="tagcolor" style="padding-left: 20px;"><</span>tr
+        <span class="tagcolor" >></span> <br>
+        <span class="tagcolor" style="padding-left:40px;margin-left: 10px;"><</span>td
+        <span class="tagcolor" >></span>
+        <span class="escrito" >Lois</span>
+        <span class="tagcolor"  >&lt/</span>td
+        <span class="tagcolor" >></span> <br>
+        <span class="tagcolor" style="padding-left:40px;margin-left: 10px;""><</span>td
+        <span class="tagcolor" >></span>
+        <span class="escrito" >Griffin</span>
+        <span class="tagcolor"  >&lt/</span>td
+        <span class="tagcolor" >></span> <br>
+        <span class="tagcolor" style="margin-left: 10px;" >&lt/</span>tr 
+        <span class="tagcolor" >></span> <br>
+        <span class="tagcolor" style="margin-left: 10px;"></span>
+        <span class="tagcolor">&lt;/</span>Table 
+        <span class="tagcolor" >></span> <br>
+        </span>  
+  </div>
+ </div>
+ <a  href="/portfolio/flotar_css.html"class="button" style="margin-bottom: 2px;float: right;">siguiente </a>
+  <a  href="/portfolio/listas_css.html"class="button" style="margin-bottom: 2px; float: left;">átras </a>

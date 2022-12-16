@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href="/portfolio/destiny.ico">
+    <title>poligono</title>
+</head>
+<style>
+body{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.navbar{
+  
+  background-color: rgb(4, 4, 4);
+  overflow: auto;
+  margin: 0%;
+  width: auto;
+}
+.navbar a {
+float: left;
+padding: 10px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 17px;
+}
+.navbar a:hover{
+  background-color:#9500ff;
+}
+.active{
+  background-color:#00ff9598 ;
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: rgb(7, 187, 28);
+}
+.active{
+  background-color: indigo;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgb(3, 3, 3);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: rgb(75, 75, 75);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.button {
+background-color: #04AA6D;
+color: white;
+font-size: 15px;
+margin: auto;
+display: block;
+width: 200px;
+border-radius: 25px;
+text-align: center;
+text-decoration: none;
+padding: 10px;
+}
+.button:hover{
+background-color:#04794e;
+}
+.caja-gris{
+  background-color: lightgrey;
+width:fit-content;
+border-radius: 10px;
+float: center;
+}
+.caja-blanca{
+  background-color: rgb(255, 255, 255);
+}
+.escrito {
+color:black;
+}
+.tagcolor{
+color: rgb(0, 0, 255);
+}
+.tagnamecolor {
+color:brown;
+}
+.atributocolor{
+color: rgb(255, 0, 0);
+}
+</style>
+<body style="background-color:rgb(224, 255, 177);font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+  <div class="navbar">
+    
+    <a href="/index.html">menu</a>
+    <div class="dropdown">
+      <button class="dropbtn"><strong>HTML</strong> 
+      </button>
+      <div class="dropdown-content">
+        <a href="/portfolio/introduccion_html.html">introduccion</a>
+        <a href="/portfolio/encabezados.html">encabezados</a>
+        <a href="/portfolio/tablas_html.html">Tablas</a>
+        <a href="/portfolio/simbolos_html.html">simbolos</a>
+        <a href="/portfolio/estilos_html.html">estilos</a>
+        <a href="/portfolio/parrafos_html.html">parrafos</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+        <button class="dropbtn" ><strong>CSS</strong> 
+        </button>
+        <div class="dropdown-content">
+          <a href="/portfolio/fondos_css.html">fondos</a>
+          <a href="/portfolio/enlaces_css.html">enlaces</a>
+          <a href="/portfolio/listas_css.html">listas</a>
+          <a href="/portfolio/tablas_css.html">Tablas</a>
+          <a href="/portfolio/flotar_css.html">flotar</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn"style="background-color: indigo;"><strong>SVG</strong> 
+        </button>
+        <div class="dropdown-content">
+          <a href="/portfolio/circulo.html">circulo</a>
+          <a href="/portfolio/elipse.html" >elipse</a>
+          <a href="/portfolio/rectangulo.html">rectangulo</a>
+          <a href="/portfolio/poligono.html"style="background-color: rgb(44, 255, 11);">poligono</a>
+          <a href="/portfolio/radial.html">radial</a>
+        </div>
+      </div> 
+      <div id="google_translate_element" class="google" style="float:right"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+        }
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div>
+<div style="margin-left: 24px; font-size: 15px;">
+<h1>Poligono SVG </h1>
+<hr>
+<p>El elemento <span style="color: red;background-color: #f9f9f9;">&ltpolygon&gt</span> se utiliza para crear un gráfico que contiene al menos tres lados:
+</p>
+<p>Los polígonos están hechos de líneas rectas y la forma es "cerrada" (todas las líneas se conectan).</p>
+</div>
+<div>
+    <svg height="210" width="500">
+        <polygon points="200,10 250,190 160,210" style="fill:violet;stroke:purple;stroke-width:1" />
+        Sorry, your browser does not support inline SVG.
+      </svg>
+</div>
+<div class="caja-gris"  style="padding: 16px;">
+    <h3>Ejemplo:</h3>
+    <div class="caja-blanca">
+       <span class="tagnamecolor">
+           <span class="tagcolor"><</span>svg
+           <span class="atributocolor">height</span>
+           <span class="tagcolor" style="margin-left: -5px;">="210"</span>
+           <span class="atributocolor">width</span>
+           <span class="tagcolor" style="margin-left: -5px;">="500"</span>
+           <span class="tagcolor">></span>
+           <br>
+           <span class="tagcolor" style="margin-left: 10px;"><</span>polygon
+           <span class="atributocolor">points</span>
+           <span class="tagcolor" style="margin-left: -5px;">="200,10 250,190 160,210"</span>
+          <br>
+           <span class="atributocolor" style="margin-left: 15px;" >style</span>
+           <span class="tagcolor" style="margin-left: -5px;">="fill:violet;stroke,;purple;stroke-width: 1"</span>
+           <span class="tagcolor"><span class="atributocolor">/</span>></span>
+           <br>
+           <span class="tagcolor">&lt/</span>svg
+           <span class="tagcolor">></span>
+       </span> 
+    </div>
+</div>
+<div>
+    <h3><b>Explicación del código</b></h3>
+    <p><ul>
+        <li>El atributo de puntos define las coordenadas xey para cada esquina del polígono</li>
+    </ul></p>
+</div>
+<div>
+    <a  href="/portfolio/radial.html"class="button" style="margin-bottom: 2px;float: right;">siguiente </a>
+    <a  href="/portfolio/rectangulo.html"class="button" style="margin-bottom: 2px; float: left;">átras </a>
+  </div>
+</body>
